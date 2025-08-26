@@ -1,0 +1,10 @@
+package com.proj.srldashboard.Repository;
+
+import com.proj.srldashboard.Model.Credential;
+import org.springframework.data.mongodb.repository.MongoRepository;
+import java.util.Optional;
+
+public interface CredentialRepository extends MongoRepository<Credential, String> {
+    Optional<Credential> findByUsername(String username);
+}
+
