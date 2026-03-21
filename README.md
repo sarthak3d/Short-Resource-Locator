@@ -1,6 +1,16 @@
+<div align="center">
+
 # Short Resource Locator
 
+[![Live Website](https://img.shields.io/badge/Live_Website-Online-success)](https://app.shorturlhub.online)
+
+</div>
+
 A full-stack link management and analytics platform built with Java Spring Boot and Next.js. It handles link shortening while tracking clicks in real-time. Instead of building a monolith, the traffic for link redirection and analytics processing is decoupled using a microservices pattern, preventing high-volume redirects from crashing the database.
+
+**Check out the website at [app.shorturlhub.online](https://app.shorturlhub.online)**
+
+
 
 ## Architecture
 
